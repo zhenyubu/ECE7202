@@ -1,9 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from explore_first_greedy import explore_first_greedy, run_experiment_N
-from epsilon_greedy import epsilon_greedy, run_experiment_epsilon
-from ucb import ucb, run_experiment_ucb
-from gradient_bandit import gradient_bandit, run_experiment_gradient_bandit
+from explore_first_greedy import  run_experiment_N
+from epsilon_greedy import run_experiment_epsilon
+from ucb import run_experiment_ucb
+from gradient_bandit import run_experiment_gradient_bandit
 
 np.random.seed(7202)
 

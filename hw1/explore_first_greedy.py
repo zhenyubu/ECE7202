@@ -40,5 +40,5 @@ def run_experiment_N(T, num_arms, N_values, num_runs=500):
         
         # Compute average reward over all runs
         avg_rewards[N] = np.mean(cumulative_rewards, axis=0) / (np.arange(1, T+1))
-    
+
     return avg_rewards
